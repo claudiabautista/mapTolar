@@ -1,0 +1,23 @@
+html,body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+nav.navbar.navbar-default{
+    height: 100px;
+   
+}
+
+
+.scrollbar {
+ 
+  height: 100%;
+  overflow:auto;
+}
+
+h1.tituloFoto{
+    margin: 0.5rem;
+}
+img.img-responsive.imgMap{
+margin: auto;
+}
