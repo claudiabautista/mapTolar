@@ -1,6 +1,6 @@
 html,body{
     font-family: 'Roboto', sans-serif;
-    
+    position: relative;
 }
 
 nav.navbar.navbar-default{
@@ -9,10 +9,11 @@ nav.navbar.navbar-default{
 }
 
 
-.scrollbar {
+.panel-body.content {
  
-  height: 100%;
-  overflow:auto;
+   height: 432px;
+    overflow-y:scroll;
+    width:100%;
 }
 
 h1.tituloFoto{

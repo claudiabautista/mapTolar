@@ -38,7 +38,7 @@
                 <div class="row">
                     <div class="col-md-4">
                             <div class="panel panel-default">
-                                <div class="panel-body " >
+                                <div class="panel-body content">
 
                                     <div id="avenidaMineros">
                                         <img class="img-responsive"src="img/AvLosMineros.jpg" alt="AvLosMineros">
@@ -227,7 +227,7 @@
                                                     </p>
                                         </div>
 
-                                            <div id="municipalidad">
+                                        <div id="municipalidad">
                                                     <img class="img-responsive"src="img/Municipalidad.jpg" alt="Municipalidad">
                                         
                                                     <hr>
@@ -248,15 +248,15 @@
                                                             <br>
                                                             Las 3 fracciones separadas en los 2 ecopuntos se están colectando y transportando también en forma diferenciada mediante la utilización de 2 bolsones big bag para las fracciones secas mientras que la fracción denominada otros se transporta por separado en el acoplado.
                                                         </p>
-                                                </div>
+                                        </div>
 
                                             
-                                                <div id="plantaAgua">
-                                                        <img class="img-responsive"src="img/PlantadeAgua.jpg" alt="PlantadeAgua">
+                                        <div id="plantaAgua">
+                                            <img class="img-responsive"src="img/PlantadeAgua.jpg" alt="PlantadeAgua">
                                             
-                                                        <hr>
+                                            <hr>
                                                         
-                                                            <p>
+                                                        <p>
                                                                 La Recolección es la actividad consistente en recoger los residuos dispuestos en los sitios indicados y su carga en los vehículos recolectores. La recolección en la localidad de Tolar Grande es del tipo:
                                                                 <br>
                                                                 <br>
@@ -271,11 +271,11 @@
                                                                 <br>
                                                                 <br>
                                                                 Las 3 fracciones separadas en los 2 ecopuntos se están colectando y transportando también en forma diferenciada mediante la utilización de 2 bolsones big bag para las fracciones secas mientras que la fracción denominada otros se transporta por separado en el acoplado.
-                                                            </p>
-                                                 </div>
+                                                </p>
+                                        </div>
 
 
-                                                 <div id="casaAndina">
+                                        <div id="casaAndina">
                                                         <img class="img-responsive"src="img/CasaAndina.jpg" alt="CasaAndina">
                                             
                                                         <hr>
@@ -296,8 +296,8 @@
                                                                 <br>
                                                                 Las 3 fracciones separadas en los 2 ecopuntos se están colectando y transportando también en forma diferenciada mediante la utilización de 2 bolsones big bag para las fracciones secas mientras que la fracción denominada otros se transporta por separado en el acoplado.
                                                             </p>
-                                                </div>
-                                                    <div id="fmVirgenValle">
+                                        </div>
+                                        <div id="fmVirgenValle">
                                                             <img class="img-responsive"src="img/FmVirgenValle.jpg" alt="FmVirgenValle">
                                                 
                                                             <hr>
@@ -318,9 +318,9 @@
                                                                     <br>
                                                                     Las 3 fracciones separadas en los 2 ecopuntos se están colectando y transportando también en forma diferenciada mediante la utilización de 2 bolsones big bag para las fracciones secas mientras que la fracción denominada otros se transporta por separado en el acoplado.
                                                                 </p>
-                                                    </div>
+                                        </div>
 
-                                                        <div id="ecopunto">
+                                        <div id="ecopunto">
                                                                 <img class="img-responsive"src="img/ecopuntos.jpg" alt="ecopuntos">
                                                     
                                                                 <hr>
@@ -341,7 +341,7 @@
                                                                         <br>
                                                                         Las 3 fracciones separadas en los 2 ecopuntos se están colectando y transportando también en forma diferenciada mediante la utilización de 2 bolsones big bag para las fracciones secas mientras que la fracción denominada otros se transporta por separado en el acoplado.
                                                                     </p>
-                                                        </div>
+                                        </div>
 
 
                                 </div>
@@ -353,7 +353,7 @@
                                 <div class="panel-body">
                                         <img src="img/mapa800_400.jpg" class="img-responsive imgMap"alt="" usemap="#mapTolarGrande">
                                         <map name="mapTolarGrande" id="mapTolarGrande">
-                                                <area target="" id="mineros"alt="Avenida Los Mineros" title="Avenida Los Mineros" href="#avenidaMineros" coords="175,183,187,200" shape="rect">
+                                                <area target="" id="mineros"alt="Avenida Los Mineros" class="color" title="Avenida Los Mineros" href="#avenidaMineros" coords="175,183,187,200" shape="rect">
                                                 <area target="" id="principal"alt="Plaza Principal" title="Plaza Principal" href="#plazaPrincipal" coords="194,215,229,230" shape="rect">
                                                 <area target="" id="plaza2" alt="Plaza" title="Plaza" href="#plaza" coords="111,265,134,278" shape="rect">
                                                 <area target="" id="salud" alt="Centro de Salud" title="Centro de Salud" href="#centroSalud" coords="165,206,177,220" shape="rect">
@@ -390,9 +390,8 @@
             $('#avenidaMineros,#plazaPrincipal,#plaza,#centroSalud,#complejoDeportivo,#ciu,#plantaAfluentes,#estacionFerrocarril,#municipalidad,#plantaAgua,#casaAndina,#fmVirgenValle,#ecopunto').hide();
         }
         
-
+        
     
-
         $('#mineros').click(function(){
             ocultar();
             $('#avenidaMineros').show();    
@@ -445,6 +444,8 @@
             ocultar();
             $('#ciu').show();    
         })
+
+
         </script>
 </body>
 
